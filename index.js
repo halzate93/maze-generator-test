@@ -7,6 +7,7 @@ var handle = function (request, response)
 };
 
 var server = http.createServer (handle);
+var port = process.env.PORT || 3000;
 
 console.log ("Start listening");
-server.listen (8080);
+server.listen (port);
