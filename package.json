@@ -8,5 +8,9 @@
     "start": "node server.js"
   },
   "author": "halzate",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "generate-maze": "^0.1.0"
+  }
 }
